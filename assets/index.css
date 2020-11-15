@@ -1,0 +1,23 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 769px) {
+  .container {
+    width: 80% !important;
+  }
+}
+
+.main-header {
+  padding: 1rem;
+}
+
+.main-header nav ul li:hover {
+  border-bottom: 1px solid white;
+}
+
+.main-content h2 {
+  font-size: 2em;
+  color: #7A7A7A;
+}
+/*# sourceMappingURL=index.css.map */

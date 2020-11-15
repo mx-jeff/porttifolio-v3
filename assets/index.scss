@@ -1,0 +1,35 @@
+$secondary-color: #7A7A7A;
+
+$md: 769px;
+
+* {
+    // background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+//Materiazlize overide
+.container {
+    @media(min-width: $md){
+        width: 80% !important;
+    }
+}
+
+// Header
+.main-header {
+    padding: 1rem;
+    nav{
+        ul { 
+            li {
+                &:hover {
+                    border-bottom: 1px solid white;
+                }
+            } 
+        }
+    }
+}
+
+// Main content
+.main-content h2 {
+    font-size: 2em;
+    color: $secondary-color;
+}
