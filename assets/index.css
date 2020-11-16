@@ -2,6 +2,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+h2, p {
+  color: #7A7A7A;
+}
+
+p {
+  font-size: 18pt;
+}
+
 @media (min-width: 769px) {
   .container {
     width: 80% !important;
@@ -13,11 +21,17 @@
 }
 
 .main-header nav ul li:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
 }
 
 .main-content h2 {
   font-size: 2em;
   color: #7A7A7A;
+}
+
+@media (max-width: 769px) {
+  .main-content h2 {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=index.css.map */

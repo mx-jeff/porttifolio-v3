@@ -1,0 +1,17 @@
+$secondary-color: #7A7A7A;
+$text-color: white;
+
+$md: 769px;
+
+* {
+    // background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, p {
+    color: $secondary-color;
+}
+
+p {
+    font-size: 18pt;
+}

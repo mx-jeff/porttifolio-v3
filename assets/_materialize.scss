@@ -1,0 +1,6 @@
+//Materiazlize overide
+.container {
+    @media(min-width: $md){
+        width: 80% !important;
+    }
+}

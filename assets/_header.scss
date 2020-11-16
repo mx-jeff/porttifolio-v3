@@ -1,0 +1,13 @@
+// Header
+.main-header {
+    padding: 1rem;
+    nav{
+        ul { 
+            li {
+                &:hover {
+                    border-bottom: 2px solid $text-color;
+                }
+            } 
+        }
+    }
+}
