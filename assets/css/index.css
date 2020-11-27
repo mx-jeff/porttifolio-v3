@@ -29,6 +29,25 @@ p {
   border-bottom: 2px solid white;
 }
 
+@media (min-width: 769px) {
+  .main-content {
+    min-height: 85vh;
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 85vh;
+  }
+}
+
 @media (max-width: 769px) {
   .main-content h1, .main-content h2, .main-content hr, .main-content p {
     text-align: center;

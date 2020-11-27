@@ -1,5 +1,16 @@
 // Main content
 .main-content {
+    @media(min-width: $md){
+        min-height: 85vh;
+        margin-top: 5rem;
+    }
+
+    @media(max-width: $md){
+        display: flex;
+        align-items: center;
+        min-height: 85vh;
+    }
+
     h1, h2, hr, p {
         @media (max-width: $md) {
             text-align: center;
