@@ -1,6 +1,6 @@
 // Main content
 .main-content {
-    h1, h2, hr {
+    h1, h2, hr, p {
         @media (max-width: $md) {
             text-align: center;
             float: unset !important;

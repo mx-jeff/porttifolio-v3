@@ -21,12 +21,16 @@ p {
   padding: 1rem;
 }
 
+.main-header nav {
+  background-color: transparent !important;
+}
+
 .main-header nav ul li:hover {
   border-bottom: 2px solid white;
 }
 
 @media (max-width: 769px) {
-  .main-content h1, .main-content h2, .main-content hr {
+  .main-content h1, .main-content h2, .main-content hr, .main-content p {
     text-align: center;
     float: unset !important;
   }
