@@ -7,7 +7,8 @@ h2, p {
 }
 
 p {
-  font-size: 18pt;
+  font-size: 13pt;
+  font-weight: lighter;
 }
 
 @media (min-width: 769px) {
@@ -24,8 +25,15 @@ p {
   border-bottom: 2px solid white;
 }
 
+@media (max-width: 769px) {
+  .main-content h1, .main-content h2, .main-content hr {
+    text-align: center;
+    float: unset !important;
+  }
+}
+
 .main-content h2 {
-  font-size: 2em;
+  font-size: 18pt;
   color: #7A7A7A;
 }
 
@@ -33,5 +41,36 @@ p {
   .main-content h2 {
     text-align: center;
   }
+}
+
+.main-content a {
+  color: white;
+  font-size: 13pt;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+.main-content p {
+  font-weight: normal;
+}
+
+.main-content hr {
+  width: 5%;
+  float: left;
+  border-color: gray;
+}
+
+footer h2 {
+  font-size: 15pt;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=index.css.map */

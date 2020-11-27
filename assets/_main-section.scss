@@ -1,9 +1,37 @@
 // Main content
-.main-content h2 {
-    font-size: 2em;
-    color: $secondary-color;
+.main-content {
+    h1, h2, hr {
+        @media (max-width: $md) {
+            text-align: center;
+            float: unset !important;
+        }
+    }
 
-    @media(max-width: $md) {
-        text-align: center;
+    h2 {
+        font-size: 18pt;
+        color: $secondary-color;
+    
+        @media(max-width: $md) {
+            text-align: center;
+        }
+    }
+
+    a {
+        color: $text-color;
+        font-size: 13pt;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-weight: normal;
+    }
+
+    hr {
+        width: 5%;
+        float: left;
+        border-color: gray;
     }
 }

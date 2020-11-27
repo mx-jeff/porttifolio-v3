@@ -1,0 +1,13 @@
+footer {
+    h2 {
+        font-size: 15pt;
+    }
+
+    a {
+        color: $text-color;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
