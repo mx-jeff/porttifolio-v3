@@ -85,6 +85,14 @@ p {
   border-color: gray;
 }
 
+.main-content .follow-link {
+  text-align: center;
+}
+
+.main-content .follow-link span {
+  font-size: 3em;
+}
+
 footer h2 {
   font-size: 15pt;
 }
