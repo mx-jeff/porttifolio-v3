@@ -1,0 +1,51 @@
+// Reset
+.slick-initialized .slick-slide:focus {
+    outline: none;
+}
+
+.certificates-slick{
+    cursor: pointer;
+
+    figure {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        img {
+            width: 200px;
+            height: 150px;
+        }
+
+        figcaption {
+            position: absolute;
+            bottom: 0;
+            width: 74%;
+            background-color: black;
+            opacity: .7;
+        }
+    }
+
+    .slick-dots {
+        display: inline-flex;
+
+        .slick-active button {
+            color: white;
+            background-color: rgb(20, 20, 20);
+        }
+
+        li {
+            margin-left: 1rem;
+
+            button {
+                cursor: pointer;
+                border-radius: 5em;
+                width: 30px;
+                height: 30px;
+                color: gray;
+                background-color: rgb(20, 20, 20);
+                border: none;
+            }
+        }
+    }
+}

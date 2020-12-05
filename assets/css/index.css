@@ -151,4 +151,64 @@ footer .social-links a {
 footer .social-links span {
   color: #7A7A7A;
 }
+
+.slick-initialized .slick-slide:focus {
+  outline: none;
+}
+
+.certificates-slick {
+  cursor: pointer;
+}
+
+.certificates-slick figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.certificates-slick figure img {
+  width: 200px;
+  height: 150px;
+}
+
+.certificates-slick figure figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 74%;
+  background-color: black;
+  opacity: .7;
+}
+
+.certificates-slick .slick-dots {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.certificates-slick .slick-dots .slick-active button {
+  color: white;
+  background-color: #141414;
+}
+
+.certificates-slick .slick-dots li {
+  margin-left: 1rem;
+}
+
+.certificates-slick .slick-dots li button {
+  cursor: pointer;
+  border-radius: 5em;
+  width: 30px;
+  height: 30px;
+  color: gray;
+  background-color: #141414;
+  border: none;
+}
 /*# sourceMappingURL=index.css.map */
