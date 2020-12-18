@@ -3,6 +3,23 @@
     outline: none;
 }
 
+.section-wrapper {
+    background-color: black;
+}
+
+.section-carrousel {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+// Title
+h2#certificados{
+    margin-bottom: 5rem;
+}
+
 .certificates-slick{
     cursor: pointer;
 

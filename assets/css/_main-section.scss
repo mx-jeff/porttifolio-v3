@@ -1,8 +1,11 @@
 // Main content
 .main-content {
+    background-color: black;
+
     @media(min-width: $md){
         min-height: 85vh;
-        margin-top: 5rem;
+        display: flex;
+        align-items: center;
     }
 
     @media(max-width: $md){
