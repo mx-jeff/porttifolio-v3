@@ -20,7 +20,7 @@ h2#certificados{
     margin-bottom: 5rem;
 }
 
-.certificates-slick{
+.slick-container{
     cursor: pointer;
 
     figure {
@@ -42,27 +42,27 @@ h2#certificados{
             opacity: .7;
         }
     }
+}
 
-    .slick-dots {
-        display: inline-flex;
+.slick-dots {
+    display: inline-flex;
 
-        .slick-active button {
-            color: white;
+    .slick-active button {
+        color: white;
+        background-color: rgb(20, 20, 20);
+    }
+
+    li {
+        margin-left: 1rem;
+
+        button {
+            cursor: pointer;
+            border-radius: 5em;
+            width: 30px;
+            height: 30px;
+            color: gray;
             background-color: rgb(20, 20, 20);
-        }
-
-        li {
-            margin-left: 1rem;
-
-            button {
-                cursor: pointer;
-                border-radius: 5em;
-                width: 30px;
-                height: 30px;
-                color: gray;
-                background-color: rgb(20, 20, 20);
-                border: none;
-            }
+            border: none;
         }
     }
 }

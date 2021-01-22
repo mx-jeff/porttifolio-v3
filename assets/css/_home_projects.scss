@@ -1,0 +1,27 @@
+#project-list{
+    div {
+        width: 50%;
+
+        h3 {
+            font-size: 16pt;
+            text-transform: uppercase;
+            color: $secondary-color;
+        }
+    
+        .link-container {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                text-transform: uppercase;
+                color: white;
+
+                font-size: 10pt;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

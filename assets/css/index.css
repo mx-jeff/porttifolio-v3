@@ -194,11 +194,11 @@ h2#certificados {
   margin-bottom: 5rem;
 }
 
-.certificates-slick {
+.slick-container {
   cursor: pointer;
 }
 
-.certificates-slick figure {
+.slick-container figure {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,12 +212,12 @@ h2#certificados {
   position: relative;
 }
 
-.certificates-slick figure img {
+.slick-container figure img {
   width: 200px;
   height: 150px;
 }
 
-.certificates-slick figure figcaption {
+.slick-container figure figcaption {
   position: absolute;
   bottom: 0;
   width: 74%;
@@ -225,22 +225,22 @@ h2#certificados {
   opacity: .7;
 }
 
-.certificates-slick .slick-dots {
+.slick-dots {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-.certificates-slick .slick-dots .slick-active button {
+.slick-dots .slick-active button {
   color: white;
   background-color: #141414;
 }
 
-.certificates-slick .slick-dots li {
+.slick-dots li {
   margin-left: 1rem;
 }
 
-.certificates-slick .slick-dots li button {
+.slick-dots li button {
   cursor: pointer;
   border-radius: 5em;
   width: 30px;
@@ -248,5 +248,34 @@ h2#certificados {
   color: gray;
   background-color: #141414;
   border: none;
+}
+
+#project-list div {
+  width: 50%;
+}
+
+#project-list div h3 {
+  font-size: 16pt;
+  text-transform: uppercase;
+  color: #7A7A7A;
+}
+
+#project-list div .link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#project-list div .link-container a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 10pt;
+}
+
+#project-list div .link-container a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=index.css.map */
