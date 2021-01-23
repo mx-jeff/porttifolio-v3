@@ -250,32 +250,67 @@ h2#certificados {
   border: none;
 }
 
-#project-list div {
-  width: 50%;
+#project-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem auto;
 }
 
-#project-list div h3 {
+#project-list .project {
+  width: 40%;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 1px solid #7A7A7A;
+}
+
+@media (max-width: 769px) {
+  #project-list .project {
+    width: 100%;
+  }
+}
+
+#project-list .project h3 {
   font-size: 16pt;
   text-transform: uppercase;
   color: #7A7A7A;
 }
 
-#project-list div .link-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+#project-list .project .link-container {
+  width: 100%;
 }
 
-#project-list div .link-container a {
+#project-list .project .link-container a {
   text-transform: uppercase;
   color: white;
   font-size: 10pt;
 }
 
-#project-list div .link-container a:hover {
+#project-list .project .link-container a:hover {
   text-decoration: underline;
+}
+
+#project-list .project .link-container a:not(:first-child) {
+  margin-left: 1rem;
+}
+
+#project-list .slick-list.draggable {
+  margin: auto;
+}
+
+#project-list .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=index.css.map */

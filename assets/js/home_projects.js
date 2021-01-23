@@ -22,7 +22,10 @@ export async function projectsList(){
                     <a href="${data.repo}">Repositorio</a>
                 </div>
             `;
+            project.classList.add('project')
             container.appendChild(project)
         }
     })
 }
+
+projectsList()

@@ -1,6 +1,21 @@
 #project-list{
-    div {
-        width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
+
+    .project {
+        // width: 80%;
+        width: 40%;
+        
+        padding: 1rem;
+        margin: 1rem;
+        border-bottom: 1px solid $secondary-color;
+        
+
+        @media(max-width: 769px){
+            width: 100%;
+        }
 
         h3 {
             font-size: 16pt;
@@ -9,9 +24,7 @@
         }
     
         .link-container {
-            display: flex;
-            justify-content: space-between;
-
+            width: 100%;
             a {
                 text-transform: uppercase;
                 color: white;
@@ -21,7 +34,21 @@
                 &:hover {
                     text-decoration: underline;
                 }
+
+                &:not(:first-child){
+                    margin-left: 1rem;
+                }
             }
         }
+    }
+
+    .slick-list.draggable{
+        margin: auto;
+    }
+
+    .slick-dots{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
