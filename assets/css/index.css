@@ -22,6 +22,28 @@ p {
   background-color: black;
 }
 
+@media (max-width: 769px) {
+  .main-header .nav-wrapper.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.main-header img {
+  width: 20%;
+}
+
+@media (max-width: 769px) {
+  .main-header img {
+    width: 50%;
+    margin: auto;
+  }
+}
+
 .main-header nav {
   background-color: transparent !important;
 }

@@ -2,6 +2,21 @@
 .main-header {
     padding: 1rem;
 
+    .nav-wrapper.container{
+        @media (max-width: 769px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    img {
+        width: 20%;
+        @media (max-width: 769px) {
+            width: 50%;
+            margin: auto;
+        }
+    }
+
     background-color: black;
     nav{
         background-color: transparent !important;
