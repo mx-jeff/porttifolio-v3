@@ -218,6 +218,11 @@ footer .row:last-child {
   height: 100vh;
 }
 
+.section-carrousel a {
+  color: inherit;
+  outline: none;
+}
+
 h2#certificados {
   margin-bottom: 5rem;
 }
