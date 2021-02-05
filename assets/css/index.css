@@ -189,6 +189,12 @@ footer .row:last-child {
   padding-bottom: 1rem;
 }
 
+@media (max-width: 769px) {
+  .px-mobile {
+    padding: 0 2rem !important;
+  }
+}
+
 .slick-initialized .slick-slide:focus {
   outline: none;
 }

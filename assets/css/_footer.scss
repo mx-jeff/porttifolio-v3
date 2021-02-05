@@ -50,3 +50,9 @@ footer {
         padding-bottom: 1rem;
     }
 }
+
+.px-mobile {
+    @media(max-width: 769px){
+        padding: 0 2rem !important;
+    }
+}
