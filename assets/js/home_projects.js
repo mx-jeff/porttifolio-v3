@@ -16,7 +16,7 @@ export async function projectsList(){
                     <a href="${data.html_url}">Repositorio</a>
                 </div>
             `;
-            project.classList.add('project')
+            project.classList.add('project-box')
             container.appendChild(project)
         }
     })

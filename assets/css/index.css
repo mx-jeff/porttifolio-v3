@@ -283,39 +283,55 @@ h2#certificados {
   border: none;
 }
 
-#project-list .project {
+#project-list .project-box {
   padding: 1rem;
   margin: 1rem;
   border-bottom: 1px solid #7A7A7A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 769px) {
-  #project-list .project {
+  #project-list .project-box {
     width: 100%;
   }
 }
 
-#project-list .project h3 {
+@media (min-width: 769px) {
+  #project-list .project-box {
+    height: 40vh;
+  }
+}
+
+#project-list .project-box h3 {
   font-size: 16pt;
   text-transform: uppercase;
   color: #7A7A7A;
 }
 
-#project-list .project .link-container {
+#project-list .project-box .link-container {
   width: 100%;
 }
 
-#project-list .project .link-container a {
+#project-list .project-box .link-container a {
   text-transform: uppercase;
   color: white;
   font-size: 10pt;
 }
 
-#project-list .project .link-container a:hover {
+#project-list .project-box .link-container a:hover {
   text-decoration: underline;
 }
 
-#project-list .project .link-container a:not(:first-child) {
+#project-list .project-box .link-container a:not(:first-child) {
   margin-left: 1rem;
 }
 
