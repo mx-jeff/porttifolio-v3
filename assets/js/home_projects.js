@@ -2,9 +2,9 @@ import { GithubApi } from './api.js'
 
 export async function projectsList(){
     const container = document.querySelector('#project-list')
-    // console.log(container)
     const github = new GithubApi()
     const githubData = await github.repos()
+
     githubData.map(data => {
         if(data.homepage){
             const project = document.createElement('div')
@@ -21,5 +21,3 @@ export async function projectsList(){
         }
     })
 }
-
-projectsList()
