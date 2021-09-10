@@ -1,6 +1,6 @@
-import { mainSlick } from './slick.js'
-import { loadMaterialize } from './materialize.js'
-import { projectsList } from "./home_projects.js";
+import { mainSlick } from './slick.min.js'
+import { loadMaterialize } from './materialize.min.js'
+import { projectsList } from "./home_projects.min.js";
 
 async function main(){
     await projectsList()

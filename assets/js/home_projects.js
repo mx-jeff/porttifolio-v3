@@ -1,4 +1,4 @@
-import { GithubApi } from './api.js'
+import { GithubApi } from './api.min.js'
 
 export async function projectsList(){
     const container = document.querySelector('#project-list')

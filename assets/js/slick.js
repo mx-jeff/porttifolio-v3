@@ -43,7 +43,7 @@ export function mainSlick() {
         infinite: true,
         autoplay: true,
         arrows: false,
-        speed: 300,
+        speed: 200,
         slidesToShow: 3,
         slidesToScroll: 3,
         responsive: [
