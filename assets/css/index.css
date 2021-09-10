@@ -283,6 +283,12 @@ h2#certificados {
   border: none;
 }
 
+@media (min-width: 769px) {
+  #projetos {
+    margin: 5rem;
+  }
+}
+
 #project-list .project-box {
   padding: 1rem;
   margin: 1rem;
@@ -307,7 +313,10 @@ h2#certificados {
 
 @media (min-width: 769px) {
   #project-list .project-box {
-    height: 40vh;
+    height: 25vh;
+  }
+  #project-list .project-box h3, #project-list .project-box p {
+    margin: 0;
   }
 }
 
