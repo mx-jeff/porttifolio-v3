@@ -23,7 +23,7 @@ export function getLocation() {
         navigator.geolocation.getCurrentPosition(async (position) => {
             const { latitude, longitude } = position.coords
             const apiKey = "b6219e522f57eb2c8547d613a9b0224a"
-            const countryFindUrl = `http://api.positionstack.com/v1/reverse?access_key=${apiKey}&query=${latitude},${longitude}`
+            const countryFindUrl = `https://api.positionstack.com/v1/reverse?access_key=${apiKey}&query=${latitude},${longitude}`
 
             const response = await fetch(countryFindUrl)
             if(response.status != 200) return
