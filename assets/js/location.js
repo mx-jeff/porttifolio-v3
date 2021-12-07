@@ -6,7 +6,6 @@ function displayBodyLang(country){
     enBody.style.display = "none"
     bodyPt.style.display = "none"
 
-    console.log(country)
     try {
         if(country == 'Brazil') {
             bodyPt.style.display = "block"
@@ -30,7 +29,6 @@ export function getLocation() {
             if(response.status != 200) return
             const data = await response.json()
             const { country } = data.data[0]
-            console.log(country)
             displayBodyLang(country)
         })
     } else {
