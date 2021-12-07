@@ -32,9 +32,8 @@ export function getLocation() {
             return
         }
     } catch(e){
-        console.error(e)
         enBody.style.display = "block"
-        return
+        console.error(e)
     }
     
 }
