@@ -12,6 +12,10 @@
 - [ ] Otimize a Cumulative Layout Shift, set explicity height and width
 - [ ] add loading site screen 
 
+# bug 
+
+- [ ] add netlify redirect to external api or change api geolocation
+
 # opcional
 
 - [ ] react

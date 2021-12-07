@@ -29,7 +29,7 @@ export function getLocation() {
                 displayBodyLang(country, enBody, bodyPt)
 
             } catch(e){
-                enBody.style.display = "block"
+                bodyPt.style.display = "block"
                 console.log(e)
             }
         })
