@@ -17,7 +17,7 @@
 # bug 
 
 - [x] add netlify redirect to external api or change api geolocation
-- [ x fix hambuguer navbar
+- [x] fix hambuguer navbar
 
 # opcional
 
