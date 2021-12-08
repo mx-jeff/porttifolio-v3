@@ -11,10 +11,13 @@
 - [ ] Use passive listeners to improve scrolling performance
 - [ ] Otimize a Cumulative Layout Shift, set explicity height and width
 - [ ] add loading site screen 
+- [ ] show page lang based on geolocation
+
 
 # bug 
 
-- [ ] add netlify redirect to external api or change api geolocation
+- [x] add netlify redirect to external api or change api geolocation
+- [ x fix hambuguer navbar
 
 # opcional
 

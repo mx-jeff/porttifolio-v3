@@ -1,1 +1,0 @@
-/v1/reverse* 'http://api.positionstack.com/v1/reverse:splat 200!
