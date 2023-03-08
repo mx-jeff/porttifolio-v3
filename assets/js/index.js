@@ -5,7 +5,7 @@ import { getLocation } from "./location.min.js"
 
 
 async function main(){
-    await getLocation()
+    // await getLocation()
     await projectsList()
     await loadMaterialize()
     await mainSlick()

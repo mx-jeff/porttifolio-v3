@@ -18,10 +18,7 @@ export function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(async (position) => {
             const { latitude, longitude } = position.coords
-            // const apiKey = "b6219e522f57eb2c8547d613a9b0224a"
             const geocodeAPikey = "&auth=260344906473753239972x1557"
-            // const countryFindUrl = `http://api.positionstack.com/v1/reverse?access_key=${apiKey}&query=${latitude},${longitude}`
-
             const countryFindUrl = `https://geocode.xyz/${latitude},${longitude}?json=1${geocodeAPikey}`
             try{
                 const response = await fetch(countryFindUrl)
@@ -33,7 +30,6 @@ export function getLocation() {
 
             } catch(e){
                 enBody.style.display = "block"
-                // bodyPt.style.display = "block"
                 console.error(e)
             }
         })

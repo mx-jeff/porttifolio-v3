@@ -1,7 +1,7 @@
 export class GithubApi {
     url = "https://api.github.com/users/"
 
-    constructor(user="DZ0Jeff"){
+    constructor(user="mx-jeff"){
         this.user = user
     }
     
